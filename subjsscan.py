@@ -171,7 +171,7 @@ def main():
             for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures), desc="访问拼接关键词后的目录", unit="URL"):
                 pass
 
-    print("判断是否存活")
+    print("结束")
 
 if __name__ == "__main__":
     main()
